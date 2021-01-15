@@ -4,9 +4,7 @@
      <AssemblyName>hello</AssemblyName>
      <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-    <ItemGroup>
-    <Compile Include="Program.cs" />
-  </ItemGroup>
+
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>  
   </Target>
