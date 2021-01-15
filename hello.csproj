@@ -2,6 +2,7 @@
   <PropertyGroup>
      <RootNamespace>hello</RootNamespace>
      <AssemblyName>hello</AssemblyName>
+     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Program.cs" />
