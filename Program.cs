@@ -28,7 +28,7 @@ namespace hello
                     .PermitReentryIf(Trigger.TOGGLE, () => !IsLightNeeded(),"Toggle not allowed");
 
             sm1.Fire(Trigger.TOGGLE);
-            Console.WriteLine(sm1.ToDotGraph());
+            //Console.WriteLine(sm1.ToDotGraph());
         }
     }
 }
