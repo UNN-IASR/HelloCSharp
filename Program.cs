@@ -28,7 +28,8 @@ namespace hello
                     .PermitReentryIf(Trigger.TOGGLE, () => !IsLightNeeded(),"Toggle not allowed");
 
             sm1.Fire(Trigger.TOGGLE);
-            //Console.WriteLine(sm1.ToDotGraph());
+            string graph = UmlDotGraph.Format(sm1.GetInfo());
+            Console.WriteLine(graph);
         }
     }
 }
