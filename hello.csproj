@@ -4,7 +4,7 @@
      <AssemblyName>hello</AssemblyName>
      <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+<PackageReference Include="Stateless" Version="5.1.8" />
   <Target Name="Build">
     <Csc Sources="@(Compile)"/>  
   </Target>
